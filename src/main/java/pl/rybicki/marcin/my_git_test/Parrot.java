@@ -6,4 +6,9 @@ public class Parrot extends Animal {
     public String toString() {
         return "Parrot{}";
     }
+
+    @Override
+    public boolean equals(Object o) {
+        return super.equals(o);
+    }
 }
