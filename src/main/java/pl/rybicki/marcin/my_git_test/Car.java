@@ -1,11 +1,11 @@
 package pl.rybicki.marcin.my_git_test;
 
-public class Auto {
+public class Car {
 
     private String brand;
     private String model;
 
-    public Auto(String brand, String model) {
+    public Car(String brand, String model) {
         this.brand = brand;
         this.model = model;
     }
@@ -28,7 +28,7 @@ public class Auto {
 
     @Override
     public String toString() {
-        return "Auto{" +
+        return "Car{" +
                 "brand='" + brand + '\'' +
                 ", model='" + model + '\'' +
                 '}';
